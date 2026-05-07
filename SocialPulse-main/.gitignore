@@ -1,0 +1,43 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# Streamlit secrets (do not commit real keys)
+.streamlit/secrets.toml
+
+# macOS
+.DS_Store
+
+# Data (optional – keep small samples instead)
+split_reviews_amazon/
+split_reviews_flipkart/
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
